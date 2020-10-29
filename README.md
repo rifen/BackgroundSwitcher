@@ -7,6 +7,6 @@ A autohotkey script that detects how many monitors you have and then sets the wa
 - You will need to replace ***PATH*** and ***IMAGE NAME*** in dockingbg.ahk.
 - You can change it from Fill to a different screen fit.
 
-https://www.autohotkey.com/
+**Prerequisite:** https://www.autohotkey.com/
 
-<b>Modified from Original Source:</b> https://gist.github.com/anonymous/0d6dd227dd983ee80131
+**Modified from Original Source:** https://gist.github.com/anonymous/0d6dd227dd983ee80131
