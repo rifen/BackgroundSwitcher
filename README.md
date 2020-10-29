@@ -1,5 +1,5 @@
 # DockingBackground
 A autohotkey script that detects how many monitors there are and then sets the wallpaper you define
 
-# Source
-https://gist.github.com/anonymous/0d6dd227dd983ee80131
+I put mine in shell:startup on Windows (Not sure about other OS)
+Original Source: https://gist.github.com/anonymous/0d6dd227dd983ee80131
