@@ -35,7 +35,7 @@ WM_DISPLAYCHANGE(wParam, lParam)
     DllCall("SystemParametersInfo", UInt, 0x14, UInt, 0, Str, background_file, UInt, 2)
     } 
   else if mc = 3
-  {
+    {
     ;if 3 monitors, use this background
     source = **PATH** ;do not include end forward-slash
     file = **IMAGE NAME**
@@ -64,22 +64,22 @@ WM_DISPLAYCHANGE(wParam, lParam)
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, TileWallpaper, 1
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, WallpaperStyle, 0
       }
-  else if style=Centered
+    else if style=Centered
       {
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, TileWallpaper, 0
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, WallpaperStyle, 0
       }
-  else if style=Streched
+    else if style=Streched
       {
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, TileWallpaper, 0
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, WallpaperStyle, 2
       }
-  else if style=Fit
+    else if style=Fit
       {
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, TileWallpaper, 0
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, WallpaperStyle, 6
       }
-  else if style=Tiled
+    else if style=Tiled
       {
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, TileWallpaper, 0
       RegWrite, REG_SZ, HKEY_CURRENT_USER, Control Panel\Desktop, WallpaperStyle, 10
