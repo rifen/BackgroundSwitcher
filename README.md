@@ -1,3 +1,4 @@
+# BackgroundSwitcher
 A autohotkey script that detects how many monitors you have and then sets the wallpaper you define depending on how many monitors are plugged in. 
 
 Really useful when you undock/dock into a multi-monitor setup. 
