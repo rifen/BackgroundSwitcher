@@ -7,7 +7,7 @@ Seems to work on any number of monitors you will just need to add to the code pa
 
 I put mine in shell:startup on Windows (Not sure about other OS)
 
-You will need to replace source and file variables
+You will need to replace <b>source</b> and <b>file</b> variables in 
 
 https://www.autohotkey.com/
 
