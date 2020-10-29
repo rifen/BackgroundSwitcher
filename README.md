@@ -11,4 +11,4 @@ You will need to replace <b>source</b> and <b>file</b> variables in dockingbg.ah
 
 https://www.autohotkey.com/
 
-<b>Original Source:</b> https://gist.github.com/anonymous/0d6dd227dd983ee80131
+<b>Modified from Original Source:</b> https://gist.github.com/anonymous/0d6dd227dd983ee80131
